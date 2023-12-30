@@ -1,0 +1,24 @@
+K → S P 
+K → S P O
+K → S P O Pel 
+K → S P O Ket 
+K → S P O Pel Ket
+S → NP
+P → Verb | VP 
+O → NP 
+Pel → NP | VP | AdjP
+Ket → PP | NP | NumP | AdjP
+NP → PropNoun | Pronoun | Noun | NP AdjP | NumP NP | NP Noun | NP PropNoun | NP Pronoun | NP Verb
+VP → Verb | AdvP VP
+PP → Prep NP | Prep AdvP | Prep AdjP | Prep VP
+AdjP → Adj | Adv AdjP | Noun AdjP
+AdvP → Adv | Adv AdvP
+NumP → Num | Num NumP
+Noun → buku | senam | minggu | gim | kamar | masakan | bali | pesta | boneka | berbentuk | beruang | ceramah | acara | seminar | pemrograman | perpustakaan | taman | museum | seni | rendang | kampung | tarian | festival | hadiah | alat | kerajinan | kebudayaan | musik | klasik | bekerja | pemandangan | kantor | temannya | presentasi | rapat | surat | tempat | baju | ibu | sayur | uang | bekal | makanan | roti | boneka | rumah | warga | pencuri | ketua | kelas | bibi | celana | penumpang | tiket | kereta | tugas | siswa | guru | petani | pengusaha | beras | pengacara | pencuri | terdakwa | pecundang | aktor | pekerjaan | bumbu | dokter | pasien | obat | nenek | mahaiswa | pengantin | tetangga | rumah | karyawan | adik | pasar | penjahat | tahanan | tahunnya | pemain | sepak | bola | lapangan | seniman | taman | waktu | yoga | pagi | online | nasi | goreng | keluarga
+Verb → membaca | mengikuti | bermain | membuat | menghadiri | mengoleksi | memberikan | belajar | mengunjungi | memasak | menampilkan | menyiapkan  membawa | merayakan | mendengar | melihat | menelepon | menyiapkan | menulis | membelikan | memasaki | meminjami | menawarkan | memberitahukan | menjanjikan | menuduh | menamai | menobatkan | menjahitkan | membawakan | memanggil | menyebutkan | mencarikan | menjelaskan | membuatkan | menggambar | menulis | mengajar | menonton | makan | menyimak | melahirkan | menari | mengobrol | bekerja | bermain | berjualan | tertangkap | melarikan | merayakan | berlatih | melukis | mengambil | tidur
+Adv → masih | akan | sangat | sudah | pernah | sungguh-sungguh | belum | sedang | harus | jarang | baru | saja | tidak | boleh | tentu | sering | hampir | selalu | juga | lebih | sebelah | secara | bukan | dengan | larut | sambil | terus | bersama | bisa | sengaja | pertamakalinya | pasti | beberapa | kali | telah | ingin | ketika
+Adj → suka | rajin | senang | indah | baru | merah | hijau | sering | palsu | lucu | miskin | mewah | pendek | baru | muda | tradisional | demam | luang
+Pronoun →  kita | ini | kami | itu | mereka | dia | saya | anda | ia | tersebut | beliau | aku | kamu 
+PropNoun → Dinda | Rini | budi | Sinta | Irfan | Ani | Maya | Adit | Dian | Fitri | Agung | Krisna | Putra | Adi | Renata | Bagas | Putri | Dinda | Ardi | Sekar | Abi | Anton | Riski | Bagas | Bayu | Juna | rini
+Prep →  ke | demi | pada | hingga | atas | di | dari | untuk | kepada | para | oleh | karena | dengan | dalam | seperti | sampai | berkat | terhadap | tentang | bagi | ke | atas | bagi | dalam | dari | demi | di | hingga | oleh | pada | sampai | sejak | tentang | untuk | bersama | beserta | menuju | terhadap | bagaikan | melalui | mengenai | karena | sebab | selain | dengan | ke | dari | di | antara | pada | bagi | guna | agar | untuk | sebab | sehingga | karena | di | tentang | saat | ke | dengan | untuk | dari | atas | pada | dalam | sebelum | akan | setelah | kepada | oleh | pada | karena | hingga | sampai | sejak | semenjak | menjelang | dari | tentang | mengenai
+Num → suatu | semua | pertama | semua | ribuan | banyak | setiap | semua | satu | lima | belas | beberapa | banyak | segelas | berulang | kali | empat | dua
